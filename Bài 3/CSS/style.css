@@ -2,8 +2,14 @@ body {
     background-color: #BFC8E6;
 }
 
+.bg {
+    background-color: #fff;
+    margin: 100px 100px 100px 100px;
+    padding-bottom: 50px;
+}
+
 .container{
-    padding: 100px;
+    padding: 50px;
 }
 
 .header{
