@@ -1,0 +1,108 @@
+body {
+    background-color: #BFC8E6;
+}
+
+.container{
+    padding: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-box input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+    width: 200px;
+    font-size: 16px;
+  }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-content: end;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+.user-container{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+  .user{
+    display: flex;
+    padding: 10px
+  }
+
+  .user img{
+    width: 140px;
+    height: auto;
+  }
+
+  .profile {
+    align-items: center;
+    padding-left: 15px;
+    line-height: 35px;
+  }
+  
+  
+  .profile h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .profile p {
+    font-size: 16px;
+    margin: 0;
+    color: #272727;
+  }
+
+  .user button {
+    border: 1px solid rgb(79, 79, 79);
+    border-radius: 10px;
+    color: rgb(86, 111, 237);
+    background-color: transparent;
+    padding: 4px 12px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .user button:hover{
+    background-color: black;
+    color: white;
+}
